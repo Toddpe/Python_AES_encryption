@@ -132,17 +132,17 @@ help_button.grid(row=2, column=0, sticky=W)
 text2 = Label(root, justify=LEFT, text="""
 ENCRYPTING FILES:
 1. Create a new encryption key (or use a pre-existing key).
-2. Copy the file path of the encryption key file into the "Key File Path:" text box.
-3. Copy the file path of the media to be encrypted in the "Input File Path:" text box.
-4. Press "Encrypt File Using Encryption Key"
+2. Select the file path of the encryption key by pressing "Select Key File".
+3. Select the file path of the media to be encrypted py pressing "Select Input File".
+4. Press "Encrypt File"
    (This will us the key to encrypt the file and store as 'encrypted.txt' in the same directory as this program)
 5. Keep the key and encrypted file seperate (if they are together it does not stop anyone from accessing the file).
 
 DECRYPTING FILES:
-1. Copy the file path of the encrypted file into the "Encrypted File Path:" text box.
-2. Copy the file path of the encryption key into the "Key File Path:" text box.
+1. Select the file path of the encrypted file by pressing "Select Encrypted File".
+2. Select the file path of the encryption key by pressing "Select Key File".
 2. Type the file ending into the text box (this will automatical set the file to the correct file type).
-3. Press "Decrypt File Using Encryption Key" the decrypted file will appear in the same directory as this program
+3. Press "Decrypt File" the decrypted file will appear in the same directory as this program
 """)
 # Placement:
 text2.grid(row=3, column=0)
