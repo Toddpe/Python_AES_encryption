@@ -2,8 +2,7 @@
 AES encryption program that runs in Python.
 
 Libraries used:
-Tkinter
-Cryptography
+Tkinter & Cryptography
 
 Support:
 Python 3.4+
